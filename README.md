@@ -1,8 +1,4 @@
-Aqui está um exemplo de README de alto padrão para o seu projeto, baseado no artigo e nas figuras fornecidas:
-
----
-
-# **Medulloblastoma Molecular Subgroup Classification using lncRNA Expression Data**
+# **Medulloblastoma molecular subgroup classification using lncRNA expression data**
 
 ## **Overview**
 
@@ -37,17 +33,20 @@ Our analysis highlights four distinct molecular subgroups, corresponding to the 
 - The consensus clustering analysis identified **four subgroups** as the optimal number of molecular subgroups for MB.
 - The CDF plot (Figure 1) shows the stabilization of clustering as the number of clusters increased, with k=4 showing the highest clustering stability. The delta area plot (Figure 2) further confirms that the most significant improvement in clustering stability occurred at k=4.
   
-  ![Consensus CDF](consensus011.png)
+  ![Consensus CDF](https://github.com/LuisNagano/ConsensusClusterPlus/blob/main/Results/consensus011.png)
+
   *Figure 1: Cumulative Distribution Function (CDF) for k=2 to k=10 clusters.*
 
-  ![Delta Area Plot](consensus012.png)
+  ![Delta Area Plot](https://github.com/LuisNagano/ConsensusClusterPlus/blob/main/Results/consensus012.png)
+
   *Figure 2: Delta Area Plot showing relative changes in area under the CDF curve.*
 
 ### 2. **Consensus Matrix for k = 4**
 - The consensus matrix for k=4 (Figure 3) reveals clear and well-separated clusters, corresponding to the four known molecular subgroups of MB: **Group 3, Group 4, SHH, and WNT**.
 - Each subgroup exhibited high intra-cluster consensus, indicating the robustness of the clustering solution.
 
-  ![Consensus Matrix](consensus004.png)
+  ![Consensus Matrix](https://github.com/LuisNagano/ConsensusClusterPlus/blob/main/Results/consensus004.png)
+
   *Figure 3: Consensus matrix for k=4, showing clear separation between MB subgroups.*
 
 ### 3. **Cohen’s Kappa: Agreement with Original MB Classification**
@@ -55,7 +54,8 @@ Our analysis highlights four distinct molecular subgroups, corresponding to the 
 - **Unweighted Kappa**: 0.80 (95% CI: 0.72 - 0.87) indicates substantial agreement.
 - **Weighted Kappa**: 0.87 (95% CI: 0.78 - 0.95) suggests excellent agreement, reinforcing the accuracy of the lncRNA-based classification.
 
-  ![Kappa Results](image.png)
+  ![Kappa Results](https://github.com/LuisNagano/ConsensusClusterPlus/blob/main/Results/Kappa_Table.png)
+  
   *Figure 4: Cohen’s Kappa results, comparing lncRNA-based classification (k=4) with original MB subgroups.*
 
 ## **Discussion and Insights**
