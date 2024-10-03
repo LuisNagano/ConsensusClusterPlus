@@ -83,6 +83,3 @@ Our analysis highlights four distinct molecular subgroups, corresponding to the 
 2. **Cohen’s Kappa**: Cohen, J. (1960). A coefficient of agreement for nominal scales. *Educational and Psychological Measurement, 20*, 37-46.
 3. **ICGC Medulloblastoma Data**: Available at [ICGC Data Portal](https://dcc.icgc.org/projects).
 
----
-
-Com esse README, seu projeto será bem estruturado e visualmente atraente para recrutadores e pesquisadores, além de detalhar claramente a metodologia e resultados obtidos.
