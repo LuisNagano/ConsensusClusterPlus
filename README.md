@@ -1,10 +1,10 @@
-# **Medulloblastoma molecular subgroup classification using lncRNA expression data**
+# **Unsupervised machine learning method establishes medulloblastoma molecular subgroup classification using lncrna expression**
 
 ## **Overview**
 
-This project aims to identify the optimal number of molecular subgroups in medulloblastoma (MB) based on lncRNA expression profiles, using RNA-seq data from 167 MB samples. We leveraged the **ConsensusClusterPlus** R package to perform consensus clustering, and applied Cohen's Kappa coefficient to evaluate the agreement between the identified molecular subgroups and the original classification of MB patients from the ICGC cohort.
+This project applies unsupervised machine learning techniques to classify molecular subgroups in medulloblastoma (MB) using lncRNA expression profiles from RNA-seq data of 167 MB samples. We utilized the **ConsensusClusterPlus** R package, a robust tool for consensus clustering, to explore the optimal number of subgroups. ConsensusClusterPlus supports various clustering algorithms, including **partitioning around medoids (PAM)**, **hierarchical clustering**, and **k-means**, using distance metrics like **Euclidean distance** and **Pearson correlation**.
 
-Our analysis highlights four distinct molecular subgroups, corresponding to the known MB subtypes (Group 3, Group 4, SHH, and WNT), with robust intra-cluster consistency. The clustering results are supported by numerical metrics and visualizations, such as consensus matrices, CDF plots, delta area plots, and correlation analyses between clustering outputs and the original MB classification.
+We also evaluated the classification agreement with the original molecular subgroups from the ICGC cohort using **Cohen's Kappa coefficient**. Our findings identified four robust molecular subgroups corresponding to the well-known MB subtypes: **Group 3, Group 4, SHH, and WNT**.
 
 ## **Objectives**
 
