@@ -1,4 +1,4 @@
-# **Unsupervised machine learning method establishes medulloblastoma molecular subgroup classification using lncrna expression**
+# **Unsupervised machine learning method establishes medulloblastoma molecular subgroup classification using lncRNA expression**
 
 ## **Overview**
 
